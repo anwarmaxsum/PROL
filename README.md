@@ -23,3 +23,14 @@ python main_prol.py ima_prol --batch-size 10 --num_tasks 10 --data-path ./local_
 python main_prol.py cub_prol --batch-size 10 --num_tasks 10 --data-path ./local_datasets/ --seed 1993 --lr 0.05 --epochs 1 --length 5
 
 python main_prol.py cub_prol --batch-size 10 --num_tasks 10 --data-path ./local_datasets/ --seed 1993 --lr 0.01 --epochs 1 --length 5
+
+
+## Citation
+
+@inproceedings{ma2025prol,
+  title={PROL: Rehearsal Free Continual Learning in Streaming Data via Prompt Online Learning},
+  author={Ma'sum, M Anwar and Pratama, Mahardhika and Ramasamy, Savitha and Liu, Lin and Habibullah, Habibullah and Kowalczyk, Ryszard},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2471--2481},
+  year={2025}
+}
